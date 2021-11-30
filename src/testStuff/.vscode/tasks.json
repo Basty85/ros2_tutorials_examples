@@ -1,0 +1,36 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++ Aktive Datei kompilieren",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-g",
+                //"-Wall",
+                //"${workspaceFolder}/src/*.cpp",
+                //"${workspaceFolder}/src/long/*.cpp",
+                //"${workspaceFolder}/src/lat/*.cpp",
+                //"${workspaceFolder}/src/generic/*.cpp",
+                "${file}",
+                
+                "-I",
+                "${workspaceFolder}/include",
+
+                "-o",
+                "${workspaceFolder}/bin/${fileBasenameNoExtension}.out"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "detail": "Vom Debugger generierte Aufgabe."
+        }
+    ],
+    "version": "2.0.0"
+}

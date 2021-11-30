@@ -1,0 +1,2 @@
+float32 tq_value1
+float32 tq_value2

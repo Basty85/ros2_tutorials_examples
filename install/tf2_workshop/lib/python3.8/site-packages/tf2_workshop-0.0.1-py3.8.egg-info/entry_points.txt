@@ -1,0 +1,7 @@
+[console_scripts]
+add_fixed_frame_off = tf2_workshop.add_fixed_frame_official:main
+broadcaster = tf2_workshop.broadcaster:main
+broadcaster_off = tf2_workshop.broadcaster_official:main
+listener = tf2_workshop.listener:main
+listener_off = tf2_workshop.listener_official:main
+

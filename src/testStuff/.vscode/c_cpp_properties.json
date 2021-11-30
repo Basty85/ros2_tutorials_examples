@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}",
+                "/opt/ros/galactic/include/**",
+                "/usr/include/x86_64-linux-gnu/qt5",
+                "${workspaceFolder}/rplidar_ros2/include/**",
+                "${workspaceFolder}/rplidar_ros2/sdk/include/**",
+                "${workspaceFolder}/rplidar_ros2/sdk/src/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/g++",
+            "cStandard": "gnu17",
+            "cppStandard": "gnu++14",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

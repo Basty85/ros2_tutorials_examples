@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "cstdlib": "cpp",
+        "qpointf": "cpp"
+    },
+    "cmake.configureOnOpen": false,
+    "python.autoComplete.extraPaths": [
+        "/home/dis3si/repos/ros2_user_workspace/install/turtlesim/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/dis3si/repos/ros2_user_workspace/install/turtlesim/lib/python3.8/site-packages",
+        "/opt/ros/galactic/lib/python3.8/site-packages"
+    ]
+}
